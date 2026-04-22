@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: mix}
 layers:
-  Defualt:
+  Default:
   - ESCAPE
   - '1'
   - '2'
@@ -53,15 +53,15 @@ layers:
   - MUTE
   - LEFT ALT
   - LGUI
-  - layer 1
+  - Layer 1
   - SPACE
   - ENTER
-  - layer 2
+  - Layer 2
   - LEFT WIN
   - RIGHT ALT
-  - {t: SPACE, h: Buleth}
+  - {t: SPACE, h: Bluetooth}
   - RCTRL
-  layer 1:
+  Layer 1:
   - F12
   - F1
   - F2
@@ -122,7 +122,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  layer 2:
+  Layer 2:
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -183,7 +183,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Buleth:
+  Bluetooth:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
