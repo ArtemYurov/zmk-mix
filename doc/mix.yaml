@@ -59,7 +59,7 @@ layers:
   - Layer 2
   - LEFT WIN
   - RIGHT ALT
-  - {t: SPACE, h: Bluetooth}
+  - {t: SPACE, h: 'Bluet:th'}
   - RCTRL
   Layer 1:
   - F12
@@ -183,7 +183,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Bluetooth:
+  Bluet:th:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}

@@ -374,8 +374,8 @@ path.combo {
 <g transform="translate(784, 266)" class="key keypos-58">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<a href="#Bluetooth">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 78%">Bluetooth</tspan></text>
+<a href="#Bluet:th">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 88%">Bluet:th</tspan></text>
 </a></g>
 <g transform="translate(847, 266)" class="key keypos-59">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
@@ -895,8 +895,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1128)" class="layer-Bluetooth">
-<text x="0" y="28" class="label" id="Bluetooth">Bluetooth:</text>
+<g transform="translate(30, 1128)" class="layer-Bluet:th">
+<text x="0" y="28" class="label" id="Bluet:th">Bluet:th:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 42)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
