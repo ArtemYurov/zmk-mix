@@ -33,6 +33,12 @@
         ;
 };
 
+/ {
+    central_states_relay {
+        compatible = "zmk,central-states-relay";
+    };
+};
+
 &left_encoder {
     status = "okay";
 };
