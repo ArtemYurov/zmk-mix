@@ -19,6 +19,16 @@
             bindings = <&bootloader>;
             key-positions = <0 11 54 53>;
         };
+
+        combo_ru_x {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <22 23>;
+        };
+
+        combo_ru_tb {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <34 35>;
+        };
     };
 
     behaviors {
@@ -38,11 +48,11 @@
         LAYER0 {
             display-name = "Default";
             bindings = <
-&kp ESCAPE  &kp N1      &kp N2        &kp N3    &kp NUMBER_4  &kp N5     &kp NUMBER_6  &kp N7  &kp N8        &kp N9         &kp N0         &kp BSPC
-&kp TAB     &kp Q       &kp W         &kp E     &kp R         &kp T      &kp Y         &kp U   &kp I         &kp O          &kp P          &kp NON_US_BACKSLASH
-&kp CAPS    &kp A       &kp S         &kp D     &kp F         &kp G      &kp H         &kp J   &kp K         &kp L          &kp SEMICOLON  &kp SQT
-&kp LSHFT   &kp Z       &kp X         &kp C     &kp V         &kp B      &kp N         &kp M   &kp COMMA     &kp DOT        &kp FSLH       &kp RSHFT
-&kp LCTRL   &kp C_MUTE  &kp LEFT_ALT  &kp LGUI  &mo 1         &kp SPACE  &kp ENTER     &mo 2   &kp LEFT_WIN  &kp RIGHT_ALT  &lt 3 SPACE    &kp RCTRL
+&kp ESCAPE  &kp N1        &kp N2            &kp N3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7               &kp N8     &kp N9   &kp N0         &kp BSPC
+&kp TAB     &kp Q         &kp W             &kp E   &kp R         &kp T   &kp Y         &kp U                &kp I      &kp O    &kp P          &kp BACKSLASH
+&kp GRAVE   &kp A         &kp S             &kp D   &kp F         &kp G   &kp H         &kp J                &kp K      &kp L    &kp SEMICOLON  &kp SQT
+&kp LSHFT   &kp Z         &kp X             &kp C   &kp V         &kp B   &kp N         &mt RIGHT_BRACKET M  &kp COMMA  &kp DOT  &kp FSLH       &kp RET
+&kp LCTRL   &kp LEFT_ALT  &kp LEFT_COMMAND  &mo 1   &kp SPACE     &mo 2   &mkp MB1      &mkp MB2             &mo 1      &trans   &mo 3          &kp RET
             >;
 
             sensor-bindings =
@@ -53,11 +63,11 @@
         LAYER1 {
             display-name = "Layer 1";
             bindings = <
-&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &kp F6             &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&trans   &trans  &trans  &trans  &trans  &kp MINUS         &kp EQUAL          &trans  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans            &trans             &trans  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &trans            &trans             &trans  &trans  &trans  &trans   &trans
+&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5            &kp F6             &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
+&trans   &trans  &trans  &trans  &trans  &kp MINUS         &kp EQUAL          &trans          &trans          &trans           &trans   &kp F12
+&trans   &trans  &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans          &kp UP_ARROW    &trans           &trans   &trans
+&trans   &trans  &trans  &trans  &trans  &trans            &trans             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&trans   &trans  &trans  &trans  &trans  &trans            &trans             &trans          &trans          &trans           &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
