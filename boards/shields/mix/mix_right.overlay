@@ -62,24 +62,19 @@
     status = "okay";
     cs-gpios = <&gpio0 24 GPIO_ACTIVE_LOW>;
 
-    // Upstream Zephyr Cirque Pinnacle driver:
-    // https://github.com/zephyrproject-rtos/zephyr/blob/main/drivers/input/input_pinnacle.c
+    // geeksville/cirque-input-module driver (ZMK v0.3 compatible):
+    // https://github.com/geeksville/cirque-input-module
     glidepoint: glidepoint@0 {
         compatible = "cirque,pinnacle";
         reg = <0>;
         spi-max-frequency = <1000000>;
         status = "okay";
-        data-ready-gpios = <&gpio1 04 (GPIO_ACTIVE_HIGH)>;
+        dr-gpios = <&gpio1 04 (GPIO_ACTIVE_HIGH)>;
 
         // ADC sensitivity: "1x", "2x", "3x", "4x" (default "4x")
         sensitivity = MIX_CIRQUE_SENSITIVITY;
-        // Data mode: "relative" (default) or "absolute"
-        data-mode = "relative";
-        // Idle packets count when no touch detected (0-255, default 0)
-        idle-packets-count = <5>;
-        // Enable trackpad sleep mode after 5 sec without touch
-        sleep-mode-enable;
-        primary-tap-enable;
+        sleep;          // enable trackpad sleep mode
+        // no-taps;     // disable tap-to-click (taps enabled by default)
     };
 };
 
