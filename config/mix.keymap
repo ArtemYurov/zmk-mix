@@ -56,8 +56,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&encoder_sc SCRL_UP SCRL_DOWN>;
+                <&encoder_sc SCRL_UP SCRL_DOWN>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         LAYER1 {
@@ -70,7 +70,7 @@
 &trans   &trans  &trans  &trans  &trans  &trans            &trans             &trans          &trans          &trans           &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         LAYER2 {
@@ -84,8 +84,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp UP_ARROW DOWN>;
+                <&inc_dec_kp UP_ARROW DOWN>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         LAYER3 {
@@ -99,8 +99,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+                <&inc_dec_kp UP_ARROW DOWN_ARROW>,
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
