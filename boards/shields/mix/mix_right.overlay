@@ -73,7 +73,7 @@
 
         // ADC sensitivity: "1x", "2x", "3x", "4x" (default "4x")
         sensitivity = MIX_CIRQUE_SENSITIVITY;
-        sleep;          // enable trackpad sleep mode
+        // sleep;       // disabled — trackpad stays always-on
         // no-taps;     // disable tap-to-click (taps enabled by default)
     };
 };
