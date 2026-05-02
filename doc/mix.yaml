@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - \
-  - CAPS
+  - '`'
   - A
   - S
   - D
@@ -44,23 +44,23 @@ layers:
   - V
   - B
   - N
-  - M
+  - {t: M, h: ']'}
   - ','
   - .
   - /
-  - RSHFT
+  - RET
   - LCTRL
-  - MUTE
   - LEFT ALT
-  - LGUI
+  - LEFT COMMAND
   - Layer 1
   - SPACE
-  - ENTER
   - Layer 2
-  - LEFT WIN
-  - RIGHT ALT
-  - {t: SPACE, h: 'Bluet:th'}
-  - RCTRL
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - Layer 1
+  - {t: ▽, type: trans}
+  - Bluet:th
+  - RET
   Layer 1:
   - F12
   - F1
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -94,6 +94,7 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -104,17 +105,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,9 +176,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -247,3 +247,7 @@ layers:
 combos:
 - p: [0, 11, 54, 53]
   k: '&bootloader'
+- p: [22, 23]
+  k: '['
+- p: [34, 35]
+  k: ']'
