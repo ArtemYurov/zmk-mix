@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - BSPC
-  - TAB
+  - '`'
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - \
-  - '`'
+  - TAB
   - A
   - S
   - D
@@ -54,7 +54,7 @@ layers:
   - LEFT COMMAND
   - Layer 1
   - SPACE
-  - Layer 2
+  - SPACE
   - '&mkp MB1'
   - '&mkp MB2'
   - Layer 1
@@ -176,13 +176,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   Bluet:th:
   - BT CLR
   - {t: BT, h: '0'}
