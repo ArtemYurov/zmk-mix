@@ -29,6 +29,16 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <34 35>;
         };
+
+        combo_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <9 10>;
+        };
+
+        combo_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <10 11>;
+        };
     };
 
     behaviors {
@@ -63,7 +73,7 @@
         LAYER1 {
             display-name = "Layer 1";
             bindings = <
-&kp F12  &kp F1          &kp F2          &kp F3           &kp F4  &kp F5            &kp F6             &kp F7  &kp F8          &kp F9          &kp F10          &kp F11
+&kp ESC  &kp F1          &kp F2          &kp F3           &kp F4  &kp F5            &kp F6             &kp F7  &kp F8          &kp F9          &kp F10          &kp F11
 &trans   &trans          &kp UP_ARROW    &trans           &trans  &kp MINUS         &kp EQUAL          &trans  &trans          &kp UP_ARROW    &trans           &kp F12
 &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans   &trans          &trans          &trans           &trans  &trans            &trans             &trans  &trans          &trans          &trans           &trans
