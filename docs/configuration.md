@@ -140,7 +140,7 @@ These are defaults — anything in `config/*.conf` overrides them.
 
 ```dts
 /* Scroll layers: layer numbers that activate scroll mode */
-#define MIX_SCROLL_LAYERS 1 2
+#define MIX_SCROLL_LAYERS 1 2 3
 
 /* Cirque hardware sensitivity: "1x" (default), "2x", "4x" */
 #define MIX_CIRQUE_SENSITIVITY "2x"
