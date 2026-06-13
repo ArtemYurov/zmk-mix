@@ -9,6 +9,7 @@
         "aif-architecture",
         "aif-commit",
         "aif-docs",
+        "aif-explore",
         "aif-fix",
         "aif-implement",
         "aif-improve",
@@ -36,6 +37,7 @@
         "plan-coordinator.md",
         "plan-polisher.md",
         "review-sidecar.md",
+        "rules-sidecar.md",
         "security-sidecar.md"
       ],
       "agentFileSources": {
@@ -107,6 +109,10 @@
           "kind": "bundled",
           "sourcePath": "review-sidecar.md"
         },
+        "rules-sidecar.md": {
+          "kind": "bundled",
+          "sourcePath": "rules-sidecar.md"
+        },
         "security-sidecar.md": {
           "kind": "bundled",
           "sourcePath": "security-sidecar.md"
@@ -135,6 +141,10 @@
         "aif-docs": {
           "sourceHash": "489958faf586f83a96048366e766851b81d909222d082dedb5e8b7de8966fbc8",
           "installedHash": "dc965114650f40ab2cade4f0e4d882934170a8574b9299351bd4286ab3e4a83b"
+        },
+        "aif-explore": {
+          "sourceHash": "03f6be6a1628563b870c845a467977d9fbd1e0946f9093f0bb3543484b1491fe",
+          "installedHash": "4a540b53356f7d87620333925e7d84cde00c3f15ca025dad44825ed9a8a6dc71"
         },
         "aif-fix": {
           "sourceHash": "f980b38a59c9c25ae69117e95b91b07d26975be8d2c9c48e3fa344ebcc07c607",
@@ -233,6 +243,10 @@
         "review-sidecar.md": {
           "sourceHash": "362856f185785d84629ddf947e7015003c766b1caf272b6df6bd25c3516bcc95",
           "installedHash": "362856f185785d84629ddf947e7015003c766b1caf272b6df6bd25c3516bcc95"
+        },
+        "rules-sidecar.md": {
+          "sourceHash": "a4d802b9d81eb5df512ecfefc54be7e4c4afd83b5c6aa9908c28d5e97eddc460",
+          "installedHash": "a4d802b9d81eb5df512ecfefc54be7e4c4afd83b5c6aa9908c28d5e97eddc460"
         },
         "security-sidecar.md": {
           "sourceHash": "515635e77f18bf95fce1cbe979c4e515b03f37274a201b669d17cbdc9e2a6906",
