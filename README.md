@@ -33,3 +33,12 @@ Wired in via `config/west.yml`:
 | [cirque-input-module](https://github.com/geeksville/cirque-input-module) | — *(Zephyr 4.1 has the binding built-in)* | `geeksville@main` | Cirque Pinnacle trackpad driver |
 | [zmk-central-states-relay](https://github.com/ArtemYurov/zmk-central-states-relay) | `ArtemYurov@main` | `ArtemYurov@main` | relays state (layer, BLE, battery) from central to peripheral |
 | [nice-view-central-relay](https://github.com/ArtemYurov/nice-view-central-relay) | `ArtemYurov@main` | `ArtemYurov@zmk-v0.3` | nice!view display driven by central data via the relay |
+
+## Documentation
+
+| Guide | Description |
+|---|---|
+| [Getting Started](docs/getting-started.md) | Fork, build firmware in CI, flash the `.uf2` onto each half |
+| [Hardware](docs/hardware.md) | Shield definition: matrix, encoders, displays, Cirque trackpad, split roles |
+| [Keymap](docs/keymap.md) | Layers, behaviors, combos, encoder bindings, ZMK Studio |
+| [Configuration](docs/configuration.md) | `build.yaml`, `west.yml`, Kconfig fragments, trackpad tuning |
