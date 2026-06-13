@@ -62,7 +62,7 @@ layers:
   - Bluet:th
   - Layer 2
   Layer 1:
-  - F12
+  - ESC
   - F1
   - F2
   - F3
@@ -251,3 +251,7 @@ combos:
   k: '['
 - p: [34, 35]
   k: ']'
+- p: [9, 10]
+  k: '-'
+- p: [10, 11]
+  k: '='
